@@ -9,5 +9,6 @@ public class DummyWoodBlock extends ModBlock {
     DummyWoodBlock()
     {
         super(Material.WOOD);
+        setHardness(2.0f);
     }
 }
