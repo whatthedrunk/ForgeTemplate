@@ -1,0 +1,5 @@
+#gui
+itemGroup.forgetemplate=Forge Template
+
+#blocks
+tiles.forgetemplate:dummy_wood.name=Dummy Wood

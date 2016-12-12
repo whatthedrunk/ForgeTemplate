@@ -1,0 +1,14 @@
+.gradle/
+out/
+build/
+run/
+eclipse/
+javadoc/
+gradle/
+gradlew
+gradlew.bat
+ForgeTemplate.iws
+ForgeTemplate.iml
+ForgeTemplate.ipr
+Art Source/
+Release/
