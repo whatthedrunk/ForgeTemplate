@@ -22,6 +22,7 @@ import java.util.Map;
 public class ModBlocks
 {
     public static final String DUMMY_WOOD = "dummy_wood";
+    public static final String DUMMY_GRASS = "dummy_grass";
 
     private static Map<String, ModBlock> mBlocks = Collections.emptyMap();
     private static Map<String, Class<? extends TileEntity>> mTileEntityClasses = Collections.emptyMap();
@@ -34,6 +35,10 @@ public class ModBlocks
         ModBlock dummy_wood = new DummyWoodBlock();
         dummy_wood.setUnlocalizedName(DUMMY_WOOD);
         mBlocks.put(DUMMY_WOOD, dummy_wood);
+
+        ModBlock dummy_grass = new DummyGrassBlock();
+        dummy_wood.setUnlocalizedName(DUMMY_GRASS);
+        mBlocks.put(DUMMY_GRASS, dummy_grass);
     }
 
     public static ModBlock getBlock(String key)
@@ -95,5 +100,13 @@ public class ModBlocks
                 "SSS",
                 'S', Items.WHEAT_SEEDS,
                 'K', Items.STICK);
+
+        ModBlock item2 = mBlocks.get(DUMMY_WOOD);
+        GameRegistry.addRecipe(new ItemStack(item2, 1),
+                "SSS",
+                " K ",
+                "SSS",
+                'S', Items.WHEAT_SEEDS,
+                'K', Items.WHEAT_SEEDS);
     }
 }

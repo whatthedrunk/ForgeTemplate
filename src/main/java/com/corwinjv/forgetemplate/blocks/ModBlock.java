@@ -17,7 +17,7 @@ public class ModBlock extends Block
 
     public ModBlock()
     {
-        super(Material.WOOD);
+        super(Material.ROCK);
         this.init();
     }
 
