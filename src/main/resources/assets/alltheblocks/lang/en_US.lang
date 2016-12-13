@@ -1,0 +1,5 @@
+#gui
+itemGroup.alltheblocks=All the Blocks
+
+#blocks
+tiles.alltheblocks:grayblock.name=Gray Block

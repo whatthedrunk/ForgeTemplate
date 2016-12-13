@@ -12,8 +12,8 @@ apply plugin: 'net.minecraftforge.gradle.forge'
 
 
 version = "0.0.0"
-group= "com.corwinjv.forgetemplate" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "forgetemplate"
+group= "com.whatthedrunk.allthemods" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = "allthemods"
 
 sourceCompatibility = targetCompatibility = "1.6" // Need this here so eclipse task generates correctly.
 compileJava {

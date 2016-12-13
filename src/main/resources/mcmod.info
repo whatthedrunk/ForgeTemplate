@@ -1,14 +1,14 @@
 [
 {
-  "modid": "forgetemplate",
-  "name": "Forge Template",
-  "description": "Template mod.",
+  "modid": "alltheblocks",
+  "name": "All the Blocks",
+  "description": "New Blocks",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "https://github.com/CorwinJV/ForgeTemplate",
+  "url": "https://github.com/whatthedrunk/alltheblocks",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "CorwinJV for making this example :)",
+  "authorList": ["whatthedrunk"],
+  "credits": "CorwinJV for making the starting Template",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []

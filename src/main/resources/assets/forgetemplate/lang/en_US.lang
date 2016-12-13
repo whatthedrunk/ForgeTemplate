@@ -1,6 +1,0 @@
-#gui
-itemGroup.forgetemplate=Forge Template
-
-#blocks
-tiles.forgetemplate:dummy_wood.name=Dummy Wood
-tiles.forgetemplate:dummy_grass.name=Dummy Grass
